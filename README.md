@@ -1,4 +1,4 @@
-# Bypass email send limitation
+# Bypassemailsendlimitation
 With this extension you can bypass the send limit if the hoster allows only a certain number of mail per SMTP session.
 
 
@@ -6,7 +6,7 @@ With this extension you can bypass the send limit if the hoster allows only a ce
 ### english
 My web host has introduced a limit for sending emails. From now on you can only send 20 mails per SMTP session. 
 
-The Symfony framework used in Typo3 throws a TransportException when the mail server reports: "451 mails per session limit exceeded." 
+The Symfony framework used in Typo3 throws a TransportException when the mail server reports: `451 mails per session limit exceeded.` 
 
 What e.g. Powermail does not catch and believes everything would be ok. 
 
@@ -15,7 +15,7 @@ This extension overwrites the class TYPO3\CMS\Core\MailMailMessage via the XClas
 ### deutsch
 Mein Webhoster hat eine Limitierung für das Versenden von E-Mails eingeführt. Ab sofort kann man nur 20 Mails pro SMTP-Session versenden. 
 
-Das im Typo3 verwendete Symfony-Framework wirft eine TransportException, wenn der Mailserver meldet: "451 Mails per session limit exceeded." 
+Das im Typo3 verwendete Symfony-Framework wirft eine TransportException, wenn der Mailserver meldet: `451 mails per session limit exceeded.`
 
 Was bspw. Powermail nicht abfängt und glaubt alles wäre in Ordnung. 
 
