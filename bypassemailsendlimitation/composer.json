@@ -1,28 +1,26 @@
 {
-    "name": "cylancer/bypassemailsendlimitation",
-    "type": "typo3-cms-extension",
-    "description": "With this extension you can bypass the send limit if the hoster allows only a certain number of mail per SMTP session. ",
-    "authors": [
-        {
-            "name": "Clemens Gogolin",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "typo3/cms-core": "^10.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "Cylancer\\Bypassemailsendlimitation\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Cylancer\\Bypassemailsendlimitation\\Tests\\": "Tests"
-        }
-    },
-    "replace": {
-        "cylancer/bypassemailsendlimitation": "self.version",
-        "typo3-ter/bypassemailsendlimitation": "self.version"
-    }
+	"name" : "cylancer/bypassemailsendlimitation",
+	"type" : "typo3-cms-extension",
+	"description" : "With this extension you can bypass the send limit if the hoster allows only a certain number of mail per SMTP session. ",
+	"authors" : [{
+			"name" : "Clemens Gogolin",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"typo3/cms-core" : "^10.4"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Cylancer\\Bypassemailsendlimitation\\" : "Classes"
+		}
+	},
+	"replace" : {
+		"cylancer/bypassemailsendlimitation" : "self.version",
+		"typo3-ter/bypassemailsendlimitation" : "self.version"
+	},
+	"support" : {
+		"issues" : "https://github.com/docmcfly/BypassEmailSendLimitation/issues",
+		"source" : "https://github.com/docmcfly/BypassEmailSendLimitation"
+	}
 }
