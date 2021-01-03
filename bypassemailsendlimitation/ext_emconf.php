@@ -13,13 +13,13 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Bypass email send limitation',
     'description' => 'With this extension you can bypass the send limit if the hoster allows only a certain number of mail per SMTP session. ',
-    'category' => 'plugin',
+    'category' => 'misc',
     'author' => 'Clemens Gogolin',
     'author_email' => 'service@cylancer.net',
     'state' => 'beta',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '0.9.0',
+    'version' => '0.9.1',
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.0-10.4.99',
