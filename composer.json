@@ -16,8 +16,7 @@
 		}
 	},
 	"replace" : {
-		"cylancer/bypassemailsendlimitation" : "self.version",
-		"typo3-ter/bypassemailsendlimitation" : "self.version"
+		"cylancer/bypassemailsendlimitation" : "self.version"
 	},
 	"support" : {
 		"issues" : "https://github.com/docmcfly/BypassEmailSendLimitation/issues",
