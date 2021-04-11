@@ -1,8 +1,9 @@
 <?php
 namespace Cylancer\Bypassemailsendlimitation\XClass;
 
-
 use Symfony\Component\Mailer\Exception\TransportException;
+use Symfony\Component\Mime\Header\Headers;
+use Symfony\Component\Mime\Part\AbstractPart;
 
 /**
  * Extension Bypass email send limitation
@@ -18,7 +19,7 @@ class CyMailMessage extends \TYPO3\CMS\Core\Mail\MailMessage
     {
         try {
             parent::send();
-        } catch (TransportException $e) {
+        } catch (\Exception $e) {
             try {
                 // The destroying of the transport queue starts the send process...
                 $this->mailer->getTransport()->__destruct();
